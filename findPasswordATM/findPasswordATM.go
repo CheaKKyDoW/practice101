@@ -8,6 +8,20 @@ import (
 	"unicode"
 )
 
+// Test Case
+// ตัวอย่างที่1
+
+// Input:HE45L32LO458T6H359ISIS1BO589RNT34ODEVN80AJA
+// Output:1604
+
+// ตัวอย่างที่2
+// Input:NPoeJ43OP-*!@#8805j3n62df0
+// Output:8913
+
+// ตัวอย่างที่3
+// Input:a1b2c3d4e5f6g7h8i9
+// Output:0045
+
 // Good version
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
